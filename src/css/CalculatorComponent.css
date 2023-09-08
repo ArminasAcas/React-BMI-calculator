@@ -1,0 +1,10 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10% 25px 10%;
+    gap: 25px 0;
+    border: solid 2px black;
+    border-radius: 25px;
+    background-color: rgb(71, 96, 220);
+    color: white;
+}

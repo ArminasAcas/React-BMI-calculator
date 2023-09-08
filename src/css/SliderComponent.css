@@ -1,0 +1,10 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.slider__label {
+    font-size: x-large;
+    font-weight: bold;
+}
