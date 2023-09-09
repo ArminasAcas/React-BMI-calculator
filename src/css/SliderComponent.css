@@ -8,3 +8,25 @@
     font-size: x-large;
     font-weight: bold;
 }
+
+.slider__slide {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 25px;
+    border: solid 1px;
+    background-color:  rgb(219, 236, 253);
+}
+
+.slider__slide::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(136, 193, 251);
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+.slider__slide::-webkit-slider-thumb:hover {
+    background-color: rgb(96, 158, 220);
+}

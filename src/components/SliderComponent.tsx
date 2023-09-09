@@ -18,7 +18,7 @@ export default function Slider(props: sliderProps) {
     return (
         <div className="slider">
             <label className="slider__label">{props.label}</label>
-            <input type="range" min={props.minValue} max={props.maxValue} id={props.sliderID} onChange={onChangeHandle}></input>
+            <input className="slider__slide" type="range" min={props.minValue} max={props.maxValue} id={props.sliderID} onChange={onChangeHandle}></input>
         </div>
     )
 }
