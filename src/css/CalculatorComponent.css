@@ -8,3 +8,9 @@
     background-color: rgb(71, 96, 220);
     color: white;
 }
+
+.calculator__header {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
