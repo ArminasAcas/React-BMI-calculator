@@ -1,0 +1,17 @@
+.information-container {
+    padding: 25px 10% 25px 10%;
+    border: solid 2px black;
+    border-radius: 25px;
+    background-color: rgb(57, 78, 183);
+    color: white;
+}
+
+.information-container__header {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.information-container__text {
+    font-size: large;
+}

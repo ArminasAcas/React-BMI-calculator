@@ -2,7 +2,6 @@ import Slider from "./SliderComponent"
 import CalculatorResult from "./CalculatorResultComponent"
 import "../css/CalculatorComponent.css"
 import { useState } from "react"
-
 interface Props {
     bmiHeader: string
 }
