@@ -1,10 +1,10 @@
 import "../css/CalculatorResult.css"
 
-interface props {
+interface Props {
     bmiValue: number
 }
 
-export default function CalculatorResult(props: props) {
+export default function CalculatorResult(props: Props) {
 
     let bmiStatus = "";
 

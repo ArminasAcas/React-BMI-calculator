@@ -5,7 +5,7 @@ export default function CalculatorPage() {
 
     return (
         <div className="page">
-            <Calculator/>
+            <Calculator bmiHeader="BMI calculator"/>
         </div>
     )
 }

@@ -3,9 +3,13 @@ import CalculatorResult from "./CalculatorResultComponent"
 import "../css/CalculatorComponent.css"
 import { useState } from "react"
 
-export default function Calculator() {
-    const [weight, setWeight] = useState(0);
-    const [height, setHeight] = useState(0);
+interface Props {
+    bmiHeader: string
+}
+
+export default function Calculator(props:Props) {
+    const [weight, setWeight] = useState(75);
+    const [height, setHeight] = useState(179);
     let weightLabel = "Weight: " + weight + " kg";
     let heightLabel = "Height: " + height + " cm";
 
@@ -15,9 +19,9 @@ export default function Calculator() {
    
     return (
         <div className="calculator">
-            <span className="calculator__header">BMI Calculator</span>
-             <Slider label={weightLabel} minValue={1} maxValue={300} sliderID="weight" setState={setWeight} />
-             <Slider label={heightLabel} minValue={1} maxValue={250} sliderID="height" setState={setHeight}/>
+            <span className="calculator__header">{props.bmiHeader}</span>
+             <Slider label={weightLabel} minValue={1} maxValue={300} startingValue={weight} sliderID="weight" setState={setWeight}/>
+             <Slider label={heightLabel} minValue={1} maxValue={250} startingValue={height} sliderID="height" setState={setHeight}/>
             <CalculatorResult bmiValue={calculateBMI()}/>
         </div>
     )
