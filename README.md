@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+https://github.com/ArminasAcas/React-BMI-calculator/assets/140112139/78149fd4-0e9a-4cf4-9337-feac3d5a7317
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
